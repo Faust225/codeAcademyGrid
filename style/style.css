@@ -1,12 +1,49 @@
+.grid-container {
+  display: grid;
+	  grid-template-areas:
+	    'header header header header header header'
+	    'left maj  main main main right'
+	    'menu footer footer footer footer footer';
+     background-color: #2196F3;
+}
 
-.cont{
+.head {
+	grid-area: header;
+	text-align: center;
+}
+
+.head ul li {
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.left {
+	grid-area: 
+}
+
+.container {
 
 	width: 80%;
 	margin: 0 auto;
 	box-sizing: border-box;
+
 }
+
 .col-1 {
+
 	float: left;
 	padding: 15px;
 	background: red;
 }
+
+.col-2, .col-5 {
+
+	box-sizing: border-box;
+	float: left;
+	padding: 15px;
+	background: red;
+	text-align: center;
+}
+
+/* 4 col lef*/
