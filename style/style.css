@@ -1,26 +1,25 @@
 
-.container {
-
-	width: 100%;
+* {
 	box-sizing: border-box;
-
 }
+
 
 .row1, .row2, .row3, .row4, .row5, .row6 {
 	box-sizing: border-box;
-	padding: 5%;
+	padding: 2%;
 }
 
+/* remove right border*/
 
 .col-1, .col-2, .col-3, .col-4, .col-6, .col-8 {
-	padding: 10px;
+	padding: 5px;
 	float: left;
 	text-align: center;
 	border: 2px solid black;
 	border-right: none;
-	margin: 0 auto;
-
 }
+
+/* add border to the last column*/
 
 .endpoint {
 	border-right: 2px solid black;
